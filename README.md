@@ -1,1 +1,1 @@
-This repository is home to my school assignments and personal projects
+Hello, I'm Chris Shepard, above are all of my software development classroom assignments, as well as personal projects!
