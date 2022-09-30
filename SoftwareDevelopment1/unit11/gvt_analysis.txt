@@ -1,0 +1,28 @@
+Nouns
+    game, goats, trolls, player, faction, cards, deck, hand, turn, score, name, cost, rarity, power, health
+
+Classes and Attributes and Methods
+
+    card
+        name (string)
+        cost (number)
+        rarity (string)
+        faction (string)
+        power (number)
+        health (number)
+
+        attack
+    deck
+        cards (list)
+
+        draw
+        shuffle
+    player
+        faction (string)
+        hand (list)
+        score (number)
+
+        turns
+
+Verbs
+    draw, place in hand, attack, reduce score, turns, shuffle
