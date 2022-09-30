@@ -1,0 +1,24 @@
+Nouns: book, system, library, patrons, shelves, want-list, book-title, book-author, patron-id, patron-name, catalog, copies
+
+Classes and attributes:
+
+book
+    book-id - string
+    book-name - string
+    copies - number
+
+patron
+    patron-id - string
+    patron-name - string
+    want-list - list
+
+library
+    shelves - list
+    catalog - class
+    patrons - list
+
+catalog
+    authors - dictionary
+    titles - dictionary
+
+Verbs: checkout, add to want list, return book, send to patron, find book by author, find book by title

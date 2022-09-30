@@ -1,0 +1,13 @@
+Nouns: superhero, avengers, team, name, identity, superpowers, weapons, leader
+
+Classes and Attibutes:
+
+superhero
+    - name - string
+    - identity - string
+    - powers - set
+    - weapons - set
+    - leader status - bool
+
+avengers
+    - superhero - class
