@@ -1,0 +1,17 @@
+Intruder alert @ 06:18:56: room 1 / sensor 6.
+*****
+Home Security System: Room 1 @ 07:10:00
+Triggered by sensor 1
+5 total room events
+Sensor 2 @ 07:01:35 carbon monoxide reading 2189 PPB
+Sensor 3 @ 06:52:48 temperature reading 70 degrees
+Sensor 6 @ 06:18:56 intruder alert
+Sensor 2 @ 05:23:46 carbon monoxide reading 2128 PPB
+Sensor 1 @ 05:19:01 temperature reading 72 degrees
+*****
+Home Security System: Room 4 @ 07:11:00
+Triggered by sensor 2
+3 total room events
+Sensor 3 @ 07:07:28 carbon monoxide reading 1893 PPB
+Sensor 2 @ 07:05:12 temperature reading 64 degrees
+Sensor 5 @ 06:38:17 temperature reading 62 degrees

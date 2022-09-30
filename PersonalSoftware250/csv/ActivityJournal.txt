@@ -1,0 +1,44 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+================================================================
+Implement code to pass all unit tests
+
+Estimated Time	2:00
+Plan:
+- utilize the getchar method along with the helper functions
+provided to loop through the field, use the end of string
+char to properply terminate the char array, return the char
+- for printinng find the min value between the nfields of
+the two structs, loop from zero the that min value
+and use the printf function to display properly
+- for getline, use a while loop and conditionals to 
+fill out the fields, keep track of the nfield count in and out
+of the loop
+
+Complete
+Actual Time	3:00
+Observations:
+- get_line function is where I ran into a majority of my issues
+- i had to create another variable to keep track of the index
+of the field struct
+- I had to look in the slides and online for how to create
+a typdef struct, overall just many issues that added time
+
+
+================================================================
+Test correct operation from the command line
+
+Estimated Time	0:30
+Plan:
+- go through each function at a time and created arrays of values
+- utilize printf to double check
+- also use the provided food output file
+
+Complete
+Actual Time	0:30
+Observations:
+- no real issues, everything worked as expected
+
+================================================================

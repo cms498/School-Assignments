@@ -1,0 +1,172 @@
+SWEN-250 Document Analysis Journal
+
+Implement these functions in the order below.
+
+Your name: Chris Shepard
+
+================================================================
+process_word
+Start
+Estimated Time	1:00
+Plan:
+- I will first check to see if the inputted parameters are valid
+- I will then check to see if the p_list parameters head is
+null, if it is then i just add the value to the head with the
+linked_list_functions and exit
+- I then will add the value to the correct spot alphabetically
+and return 1
+- return 0 at the end for failure
+
+Complete
+Actual Time	1:30
+Observations:
+- error checking worked so did the returning 0 on failure
+- added to the list alphabetically took a majority of the time
+as I forgot about the find_word function and when it actually
+returns
+- I had to get a piece of paper out and sketch the nodes to
+properly added it in and return 1
+
+
+================================================================
+get_first_word
+Start
+Estimated Time	0:15
+Plan:
+- check to see if plist or the head is null, if yes return
+- if not make the entrys first word the list head word
+and make the word count the same thing
+
+Complete
+Actual Time	0:10
+Observations:
+- no real issues, big thing that was wrong was i was using the 
+plist current instead of the plist head unique word and word
+count
+
+
+================================================================
+get_next_word
+Start
+Estimated Time	0:20 min
+Plan:
+- check the conditions for null values
+- initilized everything afterwards
+- make sure the change the current pointer
+
+Complete
+Actual Time    0:25 min
+Observations:
+- i kept having it use || instead of && so it kept
+giving me a core dump
+- everything else want according to plan
+
+
+================================================================
+get_last_word
+Start
+Estimated Time	0:05 min
+Plan:
+- essentially copy everything from the other methods and
+change everything to look and grab from p_tail
+
+Complete
+Actual Time	0:05 min
+Observations:
+- no issues, all of the methods are essentially now working
+- not entirely sure why but all of the errors i had are now gone
+- no core dumps and read_file method is passing all tests
+
+
+================================================================
+get_prev_word
+Start
+Estimated Time	0:15
+Plan:
+- copy everything from the next function and change all p_next
+to p_previous
+
+Complete
+Actual Time	0:15
+Observations:
+- no issues, im getting a core dump but i think that should be
+fixed once i write the get_last function
+
+
+================================================================
+read_file through test 56
+Start
+Estimated Time	1:00 min
+Plan:
+- check to see if the char is a upper case, if so turn it into
+a lowercase
+- if the char is not a alpha char, utlize the buffer array
+- if it is use the biffer and set the current index to the char and
+increase the index
+
+Complete
+Actual Time	1:30
+Observations:
+- one of my tests is still failing, a core dump is initizated
+- utilizing the buffer was harder then expected, i had the word
+count in the wrong spot
+- i will come back to this later to fix the error
+
+
+================================================================
+read_file MLK_dream_excerpt only
+Start
+Estimated Time	1:00 min
+Plan:
+- i need to fix some of the bugs inside of the read_file method
+- issues with almost everything even though it passes the tests
+
+Complete
+Actual Time	1:00 min
+Observations:
+- the order in which i checked things needed to be swapped,
+i also had to look up the isspace() built in
+- even though the code passes the smaller cases, once it is
+all combined the final product still might not work
+
+
+================================================================
+write_unique_word_list_to_csv_file
+Start
+Estimated Time	2:00
+Plan:
+- i need to look back at the old csv assignment
+- i should just need to create a struct and while the struct
+count is not zero, print it out in order and then set
+it equal to the next in the list
+
+Complete
+Actual Time	3:00
+Observations:
+- mlk.csv wasn't working for some reason in the printing
+- issues in MLK_dream persisted, the method worked after i fixed
+the issues inside of the read_file method
+- just took way longer then expected, if also forgot how 
+printing to files worked so research was needed
+
+
+================================================================
+Add four unit tests to the unit_tests_student.c file
+Start
+Estimated Time	:50 min
+Plan:
+- look over previous unit testing to see the formula
+- write each test individually and then exit and test one by one
+- if failing check to see if the test is wrong or if the code
+i wrote is wrong
+
+Complete
+Actual Time	1:00 min
+Observations:
+- no real issues, i have never written unit testing before
+so it just took a decent amount of time to get used to the 
+syntax
+- only real issues was with strcmp
+
+
+================================================================

@@ -1,0 +1,36 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+===================================================================
+Start Part 1
+Estimated Time 0:20
+Plan:
+- Use a for loop starting from zero, going to 300 inclusive, increasing by
+twenty each time, implement the formula without formatting, implement 
+proper formatting using printf. 
+
+Complete
+Actual Time 0:25, 4 compiles with errors
+Observations:
+- The loop worked with no issues, however the actual implementation of the
+formula was harder then expected, I forgot about the rounding down of 5/9 so
+everything came out to zero
+- Using the printf formatting was easier then expected, it just required
+me to go slow and think hard about the strange characters I was typing
+
+
+====================================================================
+Start Part 2
+Estimated Time 0:10
+Plan:
+- change my celcius variable to a double, change the formula to use decimals,
+change the formatting in the printf to right justify and use one decimal point
+
+Complete
+Actual Time 0:05, 2 complies with errors
+Observations:
+- making a plan before hand helps a ton with the work going by faster, I was
+able to implemeny my plan with almost no issue, a majoirty of my complies
+were to check if the formatting is correct
+- no obstacles to overcome, just have to keep practicing with the printf

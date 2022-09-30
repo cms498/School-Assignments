@@ -1,0 +1,26 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+================================================================
+Start
+Estimated Time: 1:30 min
+Plan:
+- write three loops to keep track of one each either words, chars, or lines
+- determine if we are at the end of a line, chars should increase no matter what each time the 
+loop executes
+- words, see if there is a blank space, increase counter by one
+- test each at one times using the DarkAndStormyNight.txt file
+
+Complete
+Actual Time: 3:00
+Observations:
+- three loops didn't work as the file will not "start from the top" after being read through
+- lines and chars implementation worked well
+- word counter had umexpected issues, as some lines were blank or had multiple spaces,
+using getchar() with another variable caused many issues
+- I need more practice with loops as well as looking over the documentation for the #includes
+as they contained lots of helpful info with helper functions pre built in
+
+================================================================
+

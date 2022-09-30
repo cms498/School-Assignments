@@ -1,0 +1,25 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+================================================================
+Start
+Estimated Time	1:00
+Plan:
+- read over the documentation, add parameter pointers to the 
+.h file, user loops and arrays to check for the $ character
+- use the built in atoi and atof features in main for the
+conversions
+- create the makefile using the slides
+
+Complete
+Actual Time	1:15
+Observations:
+- overall the assignment went pretty well, being thrown into
+a project with just a boiler plate can be hard at first
+- only real issue can within the Makefile as i was spelling
+it MakeFile, so the compiler didn't work
+- issue in read_data.c fixed, as I was missing the first num
+in the doubles and int, I called getchar() one to many times
+
+================================================================

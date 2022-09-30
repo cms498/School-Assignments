@@ -1,0 +1,24 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+================================================================
+Part 2 (Part 1 not required)
+Estimated Time: 0:30 min
+Plan:
+- fix all of the variable names to be in proper conventions
+- eliminate all magic numbers
+- add proper commenting and documentation
+- go through the rest of the proper c styling document and make
+  proper changes slowly
+- re run the code each time something major is changed
+
+Complete
+Total Time: 0:25 min
+Observations:
+- writing code properly can make understanding it after the
+fact significantly easier, even though I didn't write the
+code I was able to understand it
+- I ran into no problems, there were no obstacles to 
+overcome
+================================================================

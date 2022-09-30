@@ -1,0 +1,28 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+================================================================
+Start
+Estimated Time	2:00
+Plan:
+- complete all of the index questions first, then move onto the
+pointers
+- look back and make sure to derefrence when necessary
+- push one at a time
+- read the tips at the top of the assignment as they show
+how pointers work
+
+Complete
+Actual Time	1:30
+Observations:
+- there were instances where using pointers made more sense 
+then using array indexing
+- the substring one took up a majority of the time, 
+i was left with one or two errors after every compile
+- i had to remember to check for empty characters in
+my copies before increasing the index
+- other 4 problems were quicker
+
+
+================================================================

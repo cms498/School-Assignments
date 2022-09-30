@@ -1,0 +1,31 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+================================================================
+Start
+Estimated Time	2:00
+Plan:
+- first i am going to implement the functions with indexing
+not having to worry about memory issues
+- I will then go problem by problem looking back over the slides
+as I go
+- after every function I will use valgrin and check that I freed
+all of the memory
+- itll be key to remeber refrencing and defrencing with pointers
+
+Complete
+Actual Time	~3:00
+Observations:
+- memory allocation and dealocation is hard to get the hang of
+- I ran into many valgrind issues as I wasn't entirely sure what
+I was looking at
+- luckily the substr function worked almost first try, it 
+helped to draw out a picture first
+- i'm starting to the get hang of pointers
+- the removing the values from the other string took a long time
+- i forgot that I need to put the pointer back at the start
+once a loop is done with
+
+
+================================================================

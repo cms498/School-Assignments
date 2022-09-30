@@ -1,0 +1,4 @@
+Room 4 / Sensor 1: 14:09:01: temperature reading 72 degrees
+Room 1 / Sensor 2: 05:23:46: carbon monoxide reading 2128 PPB
+Room 2 / Sensor 6: 23:18:56: intruder alert
+Room 0 / Sensor 1: 03:48:13: print

@@ -1,0 +1,53 @@
+SWEN-250 Activity Reflection
+
+Name: Chris Shepard
+
+================================================================
+Part 1
+Estimated Time 0:45 min
+Plan:
+- use getchar and take the users input to put into the array
+- if length counter is greater then zero return length
+otherwise its and EOF and return -1
+- all printing done in main
+
+Complete
+Error Number: 1
+Complie Number: 17
+Actual Time 1:15 min
+Observations
+- using getchar worked, same with the logic for EOF
+- i was getting extra memory at the end of the array, or
+something the words typed would get cut off or have extra 
+characters, I had to remever that with char arrays you need
+the special char added \0
+- arrays are pass by refrence so if the users input was
+shorter then their previous, it would have old chars still in
+the array
+- i understood why it wasn't working but the implementation
+took longer then expected as I forgot about the ending char
+
+================================================================
+Part 2
+Estimated Time 0:20 min
+Plan:
+- loop over until maxline and set to array at index to
+from array at index
+- add variables to hold the longest word and to hold the 
+longest word length, write logic to determine if it 
+is greater then the previous
+- print at end
+
+Complete
+Error Number: 1
+Complie Number: 7
+Actual Time: 25 min
+Observations
+- copy function passed all tests first try
+- logic in main wasn't terrible, big issue is that i had a var
+in the while loop so it was reseting everytime, so the
+comparison were true everytime
+- no other issues, i remebered that you can print a char array
+using %s
+
+================================================================

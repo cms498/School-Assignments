@@ -1,0 +1,91 @@
+
+Name: Chris Shepard
+
+===========  Stage 1  ==========================================
+Start 7:00
+Estimated Time	45 min
+Plan:
+- write all of the printing and initilizes functions
+- look over the .h files to see formating for the data vector
+- make the events and print them
+
+Complete 8:15 
+Actual Time	1:15 min
+Observations:
+- c++ is hard
+- print statements dont come with spaces
+- only error involved the intruder events when creating and loading
+them in the loadData method
+
+===========  Stage 2  ==========================================
+Start 8:15
+Estimated Time	1:00 min
+Plan:
+- add the events to the pointer array and increase the appropriate
+amounts
+- change all of the print functions
+- write HomeEvent::Print()
+
+Complete 10:00
+Actual Time	1:30 min
+Observations:
+- OOP in c++ and dealing with the namespace is very hard
+- printing worked with other methods, only thing that gave
+trouble was in the loadData
+
+===========  Stage 3  ==========================================
+Start 10:00
+Estimated Time	1:00 min
+Plan:
+- keep track of the rooms, dont worry about seg faults, fix
+printing issue from level 2
+
+Complete 10:50
+Actual Time	50 min
+Observations:
+- we don't need to keep track of the rooms at all the main does
+that for us, attempting to fix the printing issue resulted 
+in even more seg faults
+
+===========  Stage 4  ==========================================
+Start 11:00 
+Estimated Time	1:00 min
+Plan:
+- use if statements to check for bounds conditions, this will
+make our buffer work
+- potentially make a helper function
+
+Complete
+Actual Time	1:30 min
+Observations:
+- our logic works however the printing is still wrong, the values
+are correct but the actual order is word, ours is based
+on the events in order, compared to the output which is based 
+on the oldest event
+
+===========  Stage 5  ==========================================
+Start 12:25
+Estimated Time	0 min
+Plan:
+- do nothing, the code should do the work for is in main.cpp
+
+Complete
+Actual Time	5 min
+Observations:
+- printing is still wrong, but the rest of the code works
+
+===========  PROJECT PART 1 SUMMARY REFLECTION  =======================
+C++ is a very weird language to learn, I knew what i wanted to do
+but figuring out the syntax on how to write it out took a 
+ton of time, dealing with the printing and * & took some
+getting used too. The project wasn't too hard, it was just a lot
+of things to kinda grasp, the documentation was very long and hard
+to follow in the beginning, but as time went on it got much more
+manageable once i knew what it wanted me to do. Dealing with 
+the circular buffer was the worst part, we had the idea 
+together, but the actual implemenation took a bit. It took more time 
+then expected for most things, but it was fairly accurate. Once
+we realized that we didn't need to keep track of the rooms and that
+the main file did all of that for us, it became much more manageable
+
+================================================================
