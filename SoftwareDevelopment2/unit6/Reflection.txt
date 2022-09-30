@@ -1,0 +1,7 @@
+I learned about the Binary tree data structure and how the last node pointing to
+only null values is called a leaf
+
+I wonder if it is possible to created a BT using a loop, or what the time complexity
+would be in that case
+
+I have no questions for today

@@ -1,0 +1,5 @@
+FIFO. queue
+key/value. dictionary
+LIFO. stack
+unique. set
+variable length. list

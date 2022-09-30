@@ -1,0 +1,5 @@
+I learned that the concept of inheritence is very powerful in reducing the amount of code that 
+needs to be written
+I wish I knew more about why we dont need to write anything in the Goat class for the
+attack and takedamage method
+I have no questions for today, just ready to practice more and expand the game

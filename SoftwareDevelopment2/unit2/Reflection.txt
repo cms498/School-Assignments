@@ -1,0 +1,3 @@
+The final keyword prevents a variable from changing
+Only thing I have more questions about are what other methods can we override at this point
+I have no questions for today!

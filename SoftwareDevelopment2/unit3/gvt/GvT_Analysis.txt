@@ -1,0 +1,20 @@
+Class
+    Attack
+        - name, # of hits, damage type
+        - getters
+    Mage
+        - name, max hp, current hp
+        - attack, attacked heal, is dead
+    Fighter
+        - name, max hp, current hp
+        - attack, attacked heal, is dead
+
+Trolls
+
+Class
+    Trolling
+        - name, max hp, current hp
+        - attack, heal, is dead, getters, setters
+    Trollzord
+        - name, max hp, current hp
+        - attack, heal, is dead, getters, setters

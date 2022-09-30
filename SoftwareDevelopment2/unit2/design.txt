@@ -1,0 +1,13 @@
+ships
+    - hull rating
+    - shields
+    - armament
+
+    sustain(how much)
+    recharge
+
+armament
+    - damage type
+    - color
+
+    dealDamage
