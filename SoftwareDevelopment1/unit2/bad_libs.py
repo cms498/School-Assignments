@@ -1,0 +1,17 @@
+location1 = input("Enter a Location: ")
+adj1 = input("Enter an Adjective: ")
+verb1 = input("Enter a verb: ")
+verb2 = input("Enter a verb: ")
+verb3 = input("Enter a verb: ")
+plno = input("Enter a plural noun: ")
+verb4 = input("Enter a verb ending in 'ing': ")
+noun1 = input("Enter a noun: ")
+adj2 = input("Enter an adjective: ")
+location2 = input ("Enter a location: ")
+ani1 = input("Enter an Animal: ")
+verb5 = input("Enter a verb ending in 'ing': ")
+
+
+print("My family is going camping this summer at " , location1, ". Camping is ", adj1, " because you get to ", verb1, " and ", verb2, " outside.", sep="", end="")
+print(" When we ", verb3, " to the campground, we set up our ", plno, ". We like to go ", verb4, " in the ", noun1, " hoping to catch some ", adj2, " fish for dinner.", sep="", end="")
+print(" We also go climbing in ", location2, ". When we camp we always see hundreds of ", ani1, " they are so amazing and are always ", verb5, ".", sep="")
