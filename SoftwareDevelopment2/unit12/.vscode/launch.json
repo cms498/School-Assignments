@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ShellServer",
+            "request": "launch",
+            "mainClass": "bindshell.ShellServer",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculatorClient",
+            "request": "launch",
+            "mainClass": "calculator.CalculatorClient",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvensAndOdds",
+            "request": "launch",
+            "mainClass": "EvensAndOdds",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch Timer",
+            "request": "launch",
+            "mainClass": "Timer",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch Connector",
+            "request": "launch",
+            "mainClass": "activities.Connector",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch Listener",
+            "request": "launch",
+            "mainClass": "activities.Listener",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch Name",
+            "request": "launch",
+            "mainClass": "activities.Name",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewworkTime",
+            "request": "launch",
+            "mainClass": "activities.NewworkTime",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintHostInfo",
+            "request": "launch",
+            "mainClass": "activities.PrintHostInfo",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchPrinter",
+            "request": "launch",
+            "mainClass": "activities.SearchPrinter",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "calculator.Calculator",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch EchoClient",
+            "request": "launch",
+            "mainClass": "echo.EchoClient",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch EchoServer",
+            "request": "launch",
+            "mainClass": "echo.EchoServer",
+            "projectName": "unit12-cms498_49b76037"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocalGuessingGame",
+            "request": "launch",
+            "mainClass": "guessing.LocalGuessingGame",
+            "projectName": "unit12-cms498_49b76037"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+9.1.9
+    G to C
+        Path [G, C]
+        Set [G, C, F]
+    F to C
+        Path [F, E, C]
+        Set [F, E, G, C]
+    B to G
+        Path [B, C, G]
+        Set [B, C, H, E, G, F]
+
+9.1.10
+    G to C
+        Queue [G, F, E, C]
+        Path [G, F, E, C]
+        Vertex [G, F, E, C]
+        Predecessor [null, G, F, E]
+    F to B
+        Queue [F, E, G, C, B, H]
+        Path [F, E, C, B]
+        Vertex [F, E, G, C, B, H]
+        Predecessor [null, F, F, E, C, C]
+
+9.1.11
+    Z
+        Queue [Z, Y, U, V, W, X]
+        Set [Z, Y, U, V, W, X]
+    W
+        Queue [W, U, V, X, Y, Z]
+        Set [W, U, V, X, Y, Z]
+    Y
+        Queue [Y, U, V, W, X, Z]
+        Set [Y, U, V, W, X, Z]
+
+9.1.13
+E to C
+
+Finalized           A           B            C           D              E
+Vertex          (0, None)    (0, None)   (0, None)    (0, None)     (0, None)
+
+E                (5, E)                  (12, E)      (7, E)          Check
+
+A                 Check       (8, A)      (11, A)     
+
+D                                                       Check
+
+B                             Check        (10, B)
+
+C                                           Check
+
+path -   E A B C
+
+
+1. I learned about that lambdas are a compact way to write anonymous classes
+2. I want to learn more about streams and all the built in functions they hold
+3. I have no questions for today

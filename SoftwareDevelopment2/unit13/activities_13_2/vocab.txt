@@ -1,0 +1,11 @@
+class
+object
+field
+method
+polymorphism
+encapsulation
+inheritence
+polymorphism
+encapsulation
+override
+java.lang.Object

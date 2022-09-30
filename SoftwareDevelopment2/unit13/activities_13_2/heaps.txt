@@ -1,0 +1,3 @@
+no, the minimum value is not at the root
+yes
+no, they are not properly ordered left to right

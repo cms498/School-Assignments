@@ -1,0 +1,2 @@
+no, the value 63 should be on the right of 60 not the left
+yes, all value are in the correct order

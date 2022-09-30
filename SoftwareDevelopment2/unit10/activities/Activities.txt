@@ -1,0 +1,5 @@
+Core 1 C        C       C       C       C       C       C       C       C       C
+Core 2 E        E       E       E       E       E       E       E       E       D
+Core 3 D        D       D       D       D       D       D       A       A       A
+Core 4 A        A       A       A       B       B       B       B       B       B  
+        1       2       3       4       5       6       7       8       9       10

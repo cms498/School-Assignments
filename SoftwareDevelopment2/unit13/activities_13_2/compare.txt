@@ -1,0 +1,6 @@
+comparable
+A.compareTo(B)
+int < 0
+Comparator
+C.Compare(A, B)
+int > 0

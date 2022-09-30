@@ -1,0 +1,14 @@
+I learned that you can attempt to establish a connection to any server for the most part
+How can you create your own server
+WHy do you get IP banned when you try and conncet to the date and time server if you 
+do it more then once every 4 seconds
+
+I learned that you don't need to establish an internet connection in order to send messages
+to other people
+Is there a way to guarantee UDP always sends all packets
+Is there a process that uses a combination of UDP and TCP/IP
+
+I learned that you can create a multi threaded server pretty easily, all you need to do is 
+ad it to a loop and make is a threaded
+What other network patterns exist
+I have no other questions

@@ -1,0 +1,7 @@
+0
+true
+error
+500
+error
+100
+false

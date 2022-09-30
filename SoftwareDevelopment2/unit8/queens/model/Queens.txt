@@ -1,0 +1,5 @@
+1. queens placed, number placed, last queen moved
+2. if canattack method returns true for any pair of queens
+3. if N are placed and it is valud
+4. isvalid determines if the current state doesn't brake any rules of the program, isgoal determines if the current
+configuration is the end solution, and getsuccessors essentially builds a giant solution tree with the possible moves

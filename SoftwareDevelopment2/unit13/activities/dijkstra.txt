@@ -1,0 +1,16 @@
+Vertex    A        B       C       D       E       F       G
+          0,null   i,null  i,null  i,null  i,null  i,null  i,null
+
+1        check     11, A            5, D
+
+2                           7, D    check                   25, D
+
+3                  10, C    Check
+
+4.                 Check                     11, B
+
+5                                            Check    17, E
+
+6                                                     Check 19, F
+
+7                                                           Check

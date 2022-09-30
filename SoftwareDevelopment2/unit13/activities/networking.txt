@@ -1,0 +1,34 @@
+NETWORKING VOCAB
+__network__ - The term for the software and hardware that allows computers to communicate.
+
+__ip address__ - A 32-bit number used to identify a computer on a network.
+
+__ip__ - The network layer protocol responsible for routing and relaying packets of data on the internet.
+
+__tcp__ - The transport layer protocol that insures that packets are delivered in order, reliably and without corruption.
+
+__hostname__ - A human-readable identifier for a computer.
+
+_localhost___ - The special name that always refers to the local computer.
+
+__loopback__ - The term for the address, 127.0.0.1, that always refers to the local computer.
+
+__domain name server__ - A server used to translate names into addresses.
+
+__udp__ - A faster but potentially less reliable protocol for sending packets of information.
+
+__url__ - A unique identifier for some resource on the Internet. Includes a service such as HTTP or FTP, the address of a computer, and resource information.
+
+
+
+NETWORKING ERRORS
+
+__bind exception__ - Your server is trying to start listening for connections on some port, but the port is already in use by some other process.
+
+__connection refused__ - Your client is trying to connect to a port on the server but the server is not listening for connections on that port.
+
+__connection closed__ - You attempted to read from or write to a socket, but the connection has already been closed.
+
+__unknown host__ - You are trying to establish a connection to an hostname or address that does not exist on the network.
+
+__io exception__ - Any other kind of general error.

@@ -58,7 +58,7 @@ public class ArrayQueue implements Queue<String>{
     }
 
     public static void main(String[] args) {
-        Queue q = new ArrayQueue();
+        Queue<String> q = new ArrayQueue();
         q.enqueue("a");
         q.enqueue("b");
 

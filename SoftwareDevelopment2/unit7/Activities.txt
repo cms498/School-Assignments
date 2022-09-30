@@ -1,0 +1,79 @@
+1. linked sequence
+2. binary tree
+3. binary search tree
+4. n-ary tree
+
+Left
+Z - X, Y
+Y, Z, X, V
+X - Z, Y
+V - Y
+U - W
+W - U, T
+T - W
+Right
+A - B
+B - C
+C - E, F
+F - E, C
+E - C, F
+D - A, C, G
+G - C, D
+
+G -> C
+[G, C, F]
+
+F -> C
+[F, E, G, C, F]
+
+B -> G
+[B, C, H, B, E, G, H, C, C, H, C, F]
+
+G -> C with set
+[G, C, F] - queue
+[G, C, F] - set
+
+F -> C with set
+[F, E, G, C] - queue
+[F, E, G, C] - set
+
+B -> G with set
+[B, C, H, E, G, F] - queue
+[B, C, H, E, G, F] - set
+
+G -> C with map
+[G, F, E, C] - vertex
+[NULL, G, F, E] - predecessor
+[G, F, E, C] - G to C
+[G, F, E, C] - path
+
+F -> B with map
+[F, E, G, C, B, H] - vertex
+[NULL, F, F, E, C, C] - predecessor
+[F, E, G, C, B, H] - F to B
+[F, E, C, B] - path
+
+BFS 3/2/2022
+
+Z -> X
+[Z, Y, U, V, W, X] - vertex
+[NULL, Z, Y, U, U, U] - predecessors
+[Z, Y, U, V, W, X] - Z to X
+[Z, Y, U, X] - path
+
+W -> Z
+[W, U, V, X, Y, Z] - vertex
+[NULL, W, W, U, U, Y] - predecessors
+[W, U, V, X, Y, Z] - W to Z
+[W, U, Y, Z] - path
+
+DFS 3/2/2022
+
+Z set - Z Y U V W X
+Z - Z Y U V W X
+
+W set - W U V X Y Z
+W - W U V X Y Z
+
+Y set - Y U V W X Z
+Y - Y U V W X Z

@@ -1,0 +1,6 @@
+float[] floats; NOT ALLOCATED
+floats = new float[4]; [0, 0, 0, 0]
+floats[3] = 7.7; [0, 0, 0, 7.7]
+String[] names = new String[5]; [null, null, null, null, null]
+names[2] = "bobby"; [null, null, bobby, null, null]
+names[3] = "kimmi"; [null, null, bobby, kimmi, null]

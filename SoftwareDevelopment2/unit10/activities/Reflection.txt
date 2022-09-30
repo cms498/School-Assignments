@@ -1,0 +1,9 @@
+I learned that you can multiple programs at one time using multi threading
+I wish i knew more about the thread processor and exactly how it works, 
+I bet there is a way under the hood to control this processor
+I have no more questions for today
+
+I learned that threads can be put to sleep but not by other threads
+I wish i knew more about how the sleep method gets off track eventually
+and how to potentially mitigate that, I also learned about race conditions
+I have no more questions for today

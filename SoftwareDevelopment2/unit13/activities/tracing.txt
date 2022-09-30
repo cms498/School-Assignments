@@ -1,0 +1,5 @@
+
+iteration    0      1       2       3       4       5
+counter      0      1       2       3       4       5
+index        5      4       3       2       1       0
+output       t      h       r       e       a       d

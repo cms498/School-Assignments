@@ -1,0 +1,4 @@
+4/8
+- I learned that you should only sync the bare minimum ammount of code
+- I still wish i knew more about the thread scheduler
+- I have no questions for today
