@@ -34,9 +34,6 @@ int main() {
 	dp = &d;
 
 	read_data(cp, ip, dp);
-	c = *cp;
-	i = *ip;
-	d = *dp;
-	printf("Character %c Integer %d Floating point %.4f\n", c, i, d);
+	printf("Character %c Integer %d Floating point %.4f\n", *cp, *ip, *dp);
 	return 0 ;
 }

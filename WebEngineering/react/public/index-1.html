@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Assignment 1</title>
+    <link rel="stylesheet" href="clubs.css">
+    <script type="text/javascript" src="clubs.js"></script>
+</head>
+
+<body>
+    <div id=header>
+        <h1>Nightclub Capacity</h1>
+        <h3>Each time someone enters/ leaves the club, select the correct club and click the appropriate button</h3>
+    </div>
+    <section class="container">
+        <div id="arcaneBox">
+            <div id="arcaneContent">
+                <h2>Club Arcane</h2>
+                <h3 id="arcaneMessage"></h3>
+            </div>
+            <number id="arcaneCount">0</number>
+        </div>
+        <div id="undergroundBox">
+            <div id="undergroundContent">
+                <h2>Club Underground</h2>
+                <h3 id="undergroundMessage"></h3>
+            </div>
+            <number id="undergroundCount">0</number>
+        </div>
+        <div id="sodaBox">
+            <div id="sodaContent">
+                <h2>Club Soda</h2>
+                <h3 id="sodaMessage"></h3>
+            </div>
+            <number id="sodaCount">0</number>
+        </div>
+        <div id="studioBox">
+            <div id="studioContent">
+                <h2>Studio 52</h2>
+                <h3 id="studioMessage"></h3>
+            </div>
+            <number id="studioCount">0</number>
+        </div>
+    </section>
+    <div id="surround">
+        <div id="radioButtons">
+            <input type="radio" id="club1" name="clubs" value="clubArcane">
+            <label for="club1">Club Arcane</label><br>
+            <input type="radio" id="club2" name="clubs" value="clubUnderground">
+            <label for="club2">Club Underground</label><br>
+            <input type="radio" id="club3" name="clubs" value="clubSoda">
+            <label for="club3">Club Soda</label><br>
+            <input type="radio" id="club4" name="clubs" value="studio52">
+            <label for="club4">Studio 52</label><br>
+        </div>
+    </div>
+    <div id="choiceButtons">
+        <input type="button" name="plusButton" value="+" id="plusButton" class="button"
+            onclick="changeBox('plusButton')">
+        <input type="button" name="minusButton" value="-" id="minusButton" class="button"
+            onclick="changeBox('minusButton')">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Assignment 0</title>
+    <meta name="description" content="First web assignment">
+    <meta name="author" content="student name">
+    <script language = "javascript" type = "text/javascript">
+        function setTextArea(input){
+            var obj = document.getElementById('display')
+            obj.style.fontSize = "25px"
+            if (input.value == "arcane"){
+                obj.innerHTML = "Name: Club Arcane\nLocation: New York\nCapacity: 10\nMusic: Punk"
+                obj.style.color = "red"
+                obj.style.backgroundColor = "LavenderBlush"
+            } else if (input.value == "underground"){
+                obj.innerHTML = "Name: Club Underground\nLocation: London\nCapacity: 15\nMusic: Rock"
+                obj.style.color = "orange"
+                obj.style.backgroundColor = "grey"
+            } else if (input.value == "soda"){
+                obj.innerHTML = "Name: Club Soda\nLocation: Dubai\nCapacity: 5\nMusic: Hip-Hop"
+                obj.style.color = "SpringGreen"
+                obj.style.backgroundColor = "plum"
+            } else if (input.value == "52"){
+                obj.innerHTML = "Name: Studio 52\nLocation: Hollywood\nCapacity: 29\nMusic: Country"
+                obj.style.color = "blue"
+                obj.style.backgroundColor = "orange"
+            } else if (input.value == "circos"){
+                obj.innerHTML = "Name: Ciro’s\nLocation: Paris\nCapacity: 2\nMusic: Grunge"
+                obj.style.color = "black"
+                obj.style.backgroundColor = "yellow"
+            } else if (input.value == "garage"){
+                obj.innerHTML = "Name: Paradisio Garage\nLocation: Toronto\nCapacity: 21\nMusic: Metal"
+                obj.style.color = "white"
+                obj.style.backgroundColor = "black"
+            } else {
+                obj.innerHTML = ""
+                obj.style.backgroundColor = ""
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <font face = "Segoe UI">
+        <h1 style="font-weight:bold; font-size:36px; font-family:Verdana; text-align:center;">SWEN-344 Web Assignment 0</h1>
+        <h2 style="text-align:center; font-family:Impact">Section 04</h2>
+        <select name="clubs" id="clubsSelect" style="text-align:center; margin:auto; display:block;" onchange = "setTextArea(clubsSelect)">
+            <option value="blank"></option>
+            <option value="arcane">Club Arcane</option>
+            <option value="underground">Club Underground</option>
+            <option value="soda">Club Soda</option>
+            <option value="52">Studio 52</option>
+            <option value="circos">Ciro’s</option>
+            <option value="garage">Paradisio Garage</option>
+        </select>
+        <div id = "div-for-text-area" style="padding-top:36px">
+            <textarea name="display" id="display" cols="50" rows="10" style="margin:auto; display:block;"></textarea>
+        </div>
+    </font>
+</body>
+
+</html>
